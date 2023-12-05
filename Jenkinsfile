@@ -7,7 +7,7 @@ pipeline {
                 script {
                     echo 'Building Flutter app'
                     sh 'flutter clean'
-                    sh 'flutter build apk --split-per-abi'
+                    sh 'flutter build apk'
                 }
             }
         }
